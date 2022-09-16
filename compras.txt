@@ -1,10 +1,9 @@
 Lista:
-
 caderno
 mochila
 lápis
 caneta
 borracha
 mesa
-suporte para notebook
+notebook
 cadeira
