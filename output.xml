@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220922 22:52:03.479" rpa="false" schemaversion="3">
-<suite id="s1" name="Exercicios" source="C:\Users\salves\sistreinamento\treinamentoSIS-Git-\exercicios.robot">
-<test id="s1-t1" name="Média Lista" line="55">
-<kw name="Evaluate" library="BuiltIn">
-<var>${NOTAS}</var>
-<arg>9+8+5</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220922 22:52:03.500" level="INFO">${NOTAS} = 22</msg>
-<status status="PASS" starttime="20220922 22:52:03.500" endtime="20220922 22:52:03.500"/>
-</kw>
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220924 22:40:09.863" rpa="false" schemaversion="3">
+<suite id="s1" name="Estrutura For" source="C:\Users\salves\sistreinamento\treinamentoSIS-Git-\Estrutura_For.robot">
+<test id="s1-t1" name="Lista1" line="27">
+<kw name="Lista">
+<arg>@{Animais}</arg>
+<for flavor="IN">
+<var>${count}</var>
+<value>@{Fazenda}</value>
+<iter>
+<var name="${count}">Galinha</var>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${NOTAS}</arg>
+<arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220922 22:52:03.501" endtime="20220922 22:52:03.502"/>
+<status status="PASS" starttime="20220924 22:40:09.897" endtime="20220924 22:40:09.897"/>
 </kw>
-<kw name="Log" library="BuiltIn">
-<arg>${NOTAS}</arg>
-<doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220922 22:52:03.503" level="INFO">22</msg>
-<status status="PASS" starttime="20220922 22:52:03.503" endtime="20220922 22:52:03.503"/>
-</kw>
-<kw name="Evaluate" library="BuiltIn">
-<var>${NOTAS}</var>
-<arg>22/3</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220922 22:52:03.505" level="INFO">${NOTAS} = 7.333333333333333</msg>
-<status status="PASS" starttime="20220922 22:52:03.505" endtime="20220922 22:52:03.505"/>
-</kw>
+<status status="PASS" starttime="20220924 22:40:09.897" endtime="20220924 22:40:09.897"/>
+</iter>
+<iter>
+<var name="${count}">Porco</var>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${NOTAS}</arg>
+<arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220922 22:52:03.506" endtime="20220922 22:52:03.506"/>
+<status status="PASS" starttime="20220924 22:40:09.899" endtime="20220924 22:40:09.899"/>
 </kw>
-<kw name="Log" library="BuiltIn">
-<arg>${NOTAS}</arg>
-<doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220922 22:52:03.508" level="INFO">7.333333333333333</msg>
-<status status="PASS" starttime="20220922 22:52:03.507" endtime="20220922 22:52:03.508"/>
+<status status="PASS" starttime="20220924 22:40:09.899" endtime="20220924 22:40:09.899"/>
+</iter>
+<iter>
+<var name="${count}">Cavalo</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220924 22:40:09.900" endtime="20220924 22:40:09.900"/>
 </kw>
-<status status="PASS" starttime="20220922 22:52:03.499" endtime="20220922 22:52:03.509"/>
+<status status="PASS" starttime="20220924 22:40:09.899" endtime="20220924 22:40:09.900"/>
+</iter>
+<status status="PASS" starttime="20220924 22:40:09.897" endtime="20220924 22:40:09.900"/>
+</for>
+<status status="PASS" starttime="20220924 22:40:09.897" endtime="20220924 22:40:09.900"/>
+</kw>
+<status status="PASS" starttime="20220924 22:40:09.897" endtime="20220924 22:40:09.901"/>
 </test>
-<status status="PASS" starttime="20220922 22:52:03.481" endtime="20220922 22:52:03.510"/>
+<status status="PASS" starttime="20220924 22:40:09.863" endtime="20220924 22:40:09.902"/>
 </suite>
 <statistics>
 <total>
@@ -49,7 +49,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Exercicios">Exercicios</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Estrutura For">Estrutura For</stat>
 </suite>
 </statistics>
 <errors>
